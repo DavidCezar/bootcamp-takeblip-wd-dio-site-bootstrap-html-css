@@ -29,9 +29,9 @@ Site pessoal servindo apenas de exemplo contemplando o uso dos itens abaixo:
 
 ## <u>Esboço da Página</u>
 
-![](C:\Pessoal\DIO\Take Blip\Bootcamp Take Blip Web Developer\Projetos\bootcamp-takeblip-wd-dio-site-bootstrap-html-css\Esboço do Site - Parte1.jpg)
+![](https://github.com/DavidCezar/bootcamp-takeblip-wd-dio-site-bootstrap-html-css/blob/main/Esbo%C3%A7o%20do%20Site%20-%20Parte1.jpg)
 
-![](C:\Pessoal\DIO\Take Blip\Bootcamp Take Blip Web Developer\Projetos\bootcamp-takeblip-wd-dio-site-bootstrap-html-css\Esboço do Site - Parte2.jpg)
+![](https://github.com/DavidCezar/bootcamp-takeblip-wd-dio-site-bootstrap-html-css/blob/main/Esbo%C3%A7o%20do%20Site%20-%20Parte2.jpg)
 
 
 
