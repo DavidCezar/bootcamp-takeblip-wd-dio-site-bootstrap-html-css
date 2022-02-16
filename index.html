@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <title>Minha Página</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" type="text/css" href="bootstrap/css/bootstrap.min.css"> <!--Linkando com o arquivo bootstrap.min.css-->
+        <link rel="stylesheet" type="text/css" href="css/style.css"> <!--Linkando com o nosso arquivo particular style.css-->
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-light margin"> <!--Cópia da 1a linha da Documentação do Bootstrap 4.0 - Components - Navbar. Funcionará por já ter feito o link do arquivo bootstrap.mim.css acima-->
+            <a class="navbar-brand" href="#">
+                <img src="img/gobal_labs.jpg" width="100" height="80">
+            </a> <!--Cópia da 2a linha da Documentação do Bootstrap 4.0 - Components - Navbar. Tiramos a palavra Navbar e associamos a uma imagem baixada do site Pexels-->
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="#quemsomos">Quem Somos</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#parceiros">Parceiros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#servicos">Serviços</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <section id="quemsomos"><!--Inicio da criação do corpo do site-->
+            <div class="container-fluid quem-somos text-center margin"><!--Em princípio utilizamos a class container do arquivo bootstrap.mim.css, mas para pegar a página inteira, trocamos para a class container-fluid-->
+                <h3 class="margin">QUEM SOMOS</h3><!--Já é cirado um texto com a margem para a esquerda por estarmos usando o container-->
+                <img src="img/time.jpg" class="rounded-circle" width="400" height="400"><!--Usado o padrão Carousel do Bootstrap na inspeção da página para saber qual a class que arredonda a imagem-->
+                <h3>Somos um time comprometido com os resultados</h3>
+            </div>
+        </section>
+
+        <section id="parceiros">
+            <div class="container-fluid text-center margin parceiros"><!--Criado a class parceiros para customizar essa div-->
+                <h3 class="margin">PARCEIROS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4"><!--Lembrando que aqui é possível usar lg e md, controlando por dispositivo, ou seja, responsivo, e o 4 é porque o total são 12 e estamos dividindo em 3 colunas de 4-->
+                            <img src="img/new_logo_digital_innovation_one.png" width="100%"><!--O width 100% faz com que a imagem se enquadre na coluna-->
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/new_logo_digital_innovation_one.png" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <img src="img/new_logo_digital_innovation_one.png" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <secition id="servicos">
+            <div class="container-fluid text-center margin servicos">
+                <h3 class="margin">SERVIÇOS</h3>
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <img src="img/app.jpg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <img src="img/site2.jpg" width="100%">
+                        </div>
+                        <div class="col-lg-4">
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s</p>
+                            <img src="img/site4.jpg" width="100%">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </secition>
+
+        <footer class="container-fluid text-center bg-footer margin">
+            <p>Desenvolvido por David Cezar</p>
+        </footer>
+        
+    </body>
+</html>
